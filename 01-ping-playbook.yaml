@@ -1,6 +1,6 @@
 ---
 - name: ping the node servers
-  hosts: 34.234.63.212
+  hosts: 54.242.20.62
   
   tasks:
   - name: ping task
