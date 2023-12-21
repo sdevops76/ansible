@@ -1,0 +1,8 @@
+---
+- name: ping the node servers
+  hosts: 34.234.63.212
+  
+  tasks:
+  - name: ping task
+    ansible.builtin.ping
+      data: repsonding
