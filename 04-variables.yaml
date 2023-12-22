@@ -1,0 +1,12 @@
+---
+- name: varialbes playlist
+  hosts: localhostgrp
+  vars:
+    course: devops
+    trainer: suresh
+    duration: 100hrs
+  
+  tasks:
+    name: varialbes demo tasks
+    ansible.builtin.debug:
+      msg: this {{devops}} course is teached by {{trainer}} in {{duration}}
