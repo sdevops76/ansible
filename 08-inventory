@@ -1,6 +1,9 @@
 [localhostgrp]
 localhost
 
+[web]
+54.209.175.226
+
 [localhost:vars]
 Course="DevOpps From inventory"
 Trainer="Sivakumar"
