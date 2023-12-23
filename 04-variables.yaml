@@ -5,6 +5,7 @@
     course: "devops"
     trainer: "suresh"
     duration: "100hrs"
+    
   tasks:
   - name: varialbes demo tasks
     ansible.builtin.debug:
