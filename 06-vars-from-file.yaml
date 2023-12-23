@@ -1,3 +1,4 @@
+---
 - name: variables from PLAY level
   hosts: localhost
   vars_files:
