@@ -6,6 +6,6 @@
     trainer: "suresh"
     duration: "100hrs"
   tasks:
-    name: varialbes demo tasks
+  - name: varialbes demo tasks
     ansible.builtin.debug:
       msg: this {{course}} course is teached by {{trainer}} in {{duration}
