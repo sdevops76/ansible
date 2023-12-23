@@ -1,9 +1,10 @@
----
-- name: vars from file
-  hosts: localhostgrp
+- name: variables from PLAY level
+  hosts: localhost
   vars_files:
-  - 06-variables.yaml
+    - variables.yaml
   tasks:
-  - name: check variables
-    ansible.builtin.debug:
-      msg: "Hi, I am learning {{Trainer}}, Trainer is {{Course}}, Duration is {{Duration}}"
+    - name: check variables
+      ansible.builtin.debug:
+        msg: >-
+          Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is
+          {{Duration}}
