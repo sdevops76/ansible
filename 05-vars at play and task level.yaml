@@ -1,0 +1,10 @@
+---
+- name: play-vars at play and task level
+  hosts: localhostgrp
+  vars:
+    course: "devops"
+    faculty: "suresh"
+    duration: "100hrs"
+  tasks:
+  - name: task-vars at play and task level
+  
