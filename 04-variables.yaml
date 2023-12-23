@@ -1,5 +1,5 @@
 ---
-- name: variables from PLAY level
+- name: varialbes playlist
   hosts: localhostgrp
   vars:
     Course: "DevOps"
