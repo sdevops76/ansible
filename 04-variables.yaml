@@ -2,9 +2,9 @@
 - name: varialbes playlist
   hosts: localhostgrp
   vars:
-    Course: "DevOps"
-    Trainer: "Sivakumar"
-    Duration: "110HRS"
+    course: "devops"
+    trainer: "suresh"
+    duration: "100hrs"
   tasks:
   - name: check variables
     ansible.builtin.debug:
