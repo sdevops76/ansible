@@ -6,5 +6,8 @@
     faculty: "suresh"
     duration: "100hrs"
   tasks:
-  - name: task-vars at play and task level
-  
+  - name: task vars at play and task level
+    vars:
+      course: "devops with aws"
+    ansible.builtin.debug:
+      msg: "The training of {{course}} course will take {{duration}} by {{faculty}}"
