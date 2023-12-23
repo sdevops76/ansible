@@ -1,11 +1,12 @@
 ---
-- name: variables from PLAY level
+- name: varialbes playlist
   hosts: localhostgrp
   vars:
-    Course: "DevOps"
-    Trainer: "Sivakumar"
-    Duration: "110HRS"
+    course: "devops"
+    trainer: "suresh"
+    duration: "100hrs"
+  
   tasks:
-  - name: check variables
+    name: varialbes demo tasks
     ansible.builtin.debug:
-      msg: "Hi, I am learning {{Course}}, Trainer is {{Trainer}}, Duration is {{Duration}}"
+      msg: this {{course}} course is teached by {{trainer}} in {{duration}}
