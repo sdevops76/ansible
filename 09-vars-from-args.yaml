@@ -1,4 +1,4 @@
-- name: vars from args
+- name: vars from command line args
   hosts: localhost
   tasks:
   - name: check variables
